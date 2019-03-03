@@ -1,0 +1,40 @@
+div.contact {
+  color: $secondary-color;
+  line-height: 1.4;
+
+  .brief {
+    margin-bottom: 25px;
+  }
+  h2 {
+    color: $main-color;
+    font-size: 2.7em;
+    margin-bottom: 25px;
+  }
+
+  input, textarea, select {
+    //margin-bottom: 25px;
+    background-color: #1F1F1F;
+    color: #fff;
+    border: 1px solid #303030;
+    font-weight: normal;
+    border-radius: 0;
+  }
+
+  input {
+    height: 41px;
+  }
+
+  div.form {
+    margin-bottom: 40px;
+  }
+
+  div.address {
+    padding: 30px 50px;
+    background: $background-lighter-color;
+    margin-bottom: 40px;
+  }
+
+  div.maps {
+    margin-bottom: 40px;
+  }
+}

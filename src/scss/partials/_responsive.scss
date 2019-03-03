@@ -1,0 +1,30 @@
+@media screen and (max-width: $screen-xs) {
+  .navbar-toggle {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .navbar {
+    min-height: initial;
+    border-radius: 0;
+  }
+
+  div.all-products {
+    padding: 15px 0;
+  }
+
+  div.section-title {
+    margin-bottom: 10px;
+    h2 {
+      font-size: 1.3em;
+    }
+  }
+
+  div.all-products div#product-grid-filter button {
+    padding: 7px 7px;
+  }
+
+  div.news-item div.info .title {
+    font-size: 1.3em;
+  }
+}

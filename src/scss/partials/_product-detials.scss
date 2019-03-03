@@ -1,0 +1,35 @@
+div.product-details {
+  margin-bottom: 40px;
+  div.image {
+    margin-bottom: 20px;
+  }
+  div.content {
+    line-height: 1.4;
+    color: $secondary-color !important;
+  }
+
+  div.details {
+    background-color: $background-lighter-color;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  div.info-detail {
+    margin-bottom: 15px;
+    border-bottom: 1px solid $secondary-color;
+    p {
+      padding-bottom: 15px;
+    }
+    p.title {
+      color: #ffffff;
+      font-size: 1.5em;
+    }
+    p.value {
+      color: $secondary-color;
+
+    }
+  }
+  div.info-detail:last-child {
+    border: none;
+  }
+}

@@ -1,0 +1,20 @@
+.carousel-control {
+  width: 5%;
+}
+
+.carousel-caption {
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: rgba(0, 0, 0, 0.5);
+  h3 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+}
+
+.carousel-indicators {
+  text-align: right;
+  bottom: 10px;
+  width: 75%
+}

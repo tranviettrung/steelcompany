@@ -1,0 +1,18 @@
+@import "partials/variables";
+
+@import "../../../master-assets/scss/vendor/bootstrap/bootstrap";
+@import "../../../master-assets/scss/vendor/font-awesome/font-awesome";
+@import "../../../master-assets/scss/reset";
+
+
+
+@import "partials/common";
+@import "partials/header";
+@import "partials/slide";
+@import "partials/index";
+@import "partials/news-list";
+@import "partials/service";
+@import "partials/about";
+@import "partials/contact";
+@import "partials/product-detials";
+@import "partials/responsive";

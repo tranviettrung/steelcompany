@@ -1,0 +1,27 @@
+div.news-list {
+  margin-bottom: 35px;
+}
+
+.relate-news {
+  border-top: 1px solid #393939;
+  margin-top: 35px;
+  padding: 25px 0 20px;
+  div.image {
+    img {
+      width: 100%;
+    }
+    margin-bottom: 5px;
+  }
+
+  .title {
+    h3 {
+      color: $secondary-color;
+      font-size: 1.3em;
+    }
+  }
+}
+
+.sidebar-right {
+  background-color: $background-lighter-color;
+  padding: 25px;
+}
